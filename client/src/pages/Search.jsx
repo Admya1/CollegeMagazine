@@ -68,7 +68,7 @@ export default function Search() {
       setSidebarData({ ...sidebarData, category });
     }
   };
-
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     const urlParams = new URLSearchParams(location.search);
