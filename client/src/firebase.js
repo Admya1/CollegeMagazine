@@ -7,12 +7,13 @@ import { initializeApp } from 'firebase/app';
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: 'mern-blog-b327f.firebaseapp.com',
-  projectId: 'mern-blog-b327f',
-  storageBucket: 'mern-blog-b327f.appspot.com',
-  messagingSenderId: '699397991367',
-  appId: '1:699397991367:web:88ff565ef72a182d6b87e2',
+  authDomain: "college-magazine-ae4b3.firebaseapp.com",
+  projectId: "college-magazine-ae4b3",
+  storageBucket: "college-magazine-ae4b3.appspot.com",
+  messagingSenderId: "255467178672",
+  appId: "1:255467178672:web:7293610db7b1aa89ee8975"
 };
+
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
